@@ -1,7 +1,7 @@
 const makeHome=()=>{
     let bigdiv=document.createElement("div");
     bigdiv.style.textAlign="center";
-    
+    bigdiv.setAttribute('id','home');
     bigdiv.style.backgroundColor="rgba(0,0,0,0.7)";
     bigdiv.style.width="45%";
     bigdiv.style.margin="3em auto";
